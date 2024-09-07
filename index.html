@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <link rel="icon" href="./aiicon.png" />
+    <link rel="apple-touch-icon" href="./aiicon.png" />
+    <link rel="bookmark" href="./aiicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="200x200" href="./aiicon.png" />
+    <meta charset="UTF-8">
+    <title>选择页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .choice-container {
+            text-align: center;
+        }
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            background-color: #007BFF;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="choice-container">
+        <h1>请选择你要去哪</h1>
+        <button onclick="window.location.href='https://ai.deep-sea.us.kg'">NewBing主界面</button>
+        <button onclick="window.location.href='./copybingserver.html'">复制备用服务器</button>
+        <button onclick="window.location.href='cookie.html'">获取Cookie</button>
+        <button onclick="window.location.href='https://gpt.deep-sea.us.kg'">ChatGPT主界面</button>
+    </div>
+</body>
+</html>
